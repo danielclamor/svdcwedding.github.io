@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@layer theme {
+  @font-face {
+    font-family: "PPRader";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/public/fonts/PPRaderWeb/PPRader-Regular.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "PPRader";
+    font-style: bold;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/public/fonts/PPRaderWeb/PPRader-Bold.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "PPRader";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/public/fonts/PPRaderWeb/PPRader-Italic.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "PPRader";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("/public/fonts/PPRaderWeb/PPRader-Thin.woff2") format("woff2");
+  }
+
+  :root, :host {
+    --default-font-family: "PPRader";
+  }
+}
