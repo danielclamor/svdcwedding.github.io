@@ -138,6 +138,15 @@ h1 {
   max-width: -webkit-fill-available;
 }
 
+hr {
+  display: block;
+  height: 8px;
+  border: 0;
+  border-top: 8px solid var(--green);
+  margin: 0;
+  padding: 0;
+}
+
 @media screen and (max-width: 768px) {
   .svdc__top-landing {
     max-height: -webkit-fill-available;
@@ -170,13 +179,4 @@ h1 {
   .svdc__top-landing-logo {
     max-width: 80%;
   }
-}
-
-hr {
-  display: block;
-  height: 8px;
-  border: 0;
-  border-top: 8px solid var(--green);
-  margin: 0;
-  padding: 0;
 }
