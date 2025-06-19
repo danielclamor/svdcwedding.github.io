@@ -1,12 +1,11 @@
 // import './style.css'
-import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
 
-fetch("/src/top_landing.html").then(r=>r.text()).then((html)=>{ // get the content of products.html
-  // let element = document.createElement("html");
-  // element.innerHTML = html; // parse the html
-  // let p1 = element.querySelector("#p1");
+fetch("/src/top_landing.html").then(r=>r.text()).then((html)=>{
   document.querySelector('#app').innerHTML = html;
+});
+
+fetch("/src/details_page.html").then(r=>r.text()).then((html)=>{
+  document.querySelector('#app').innerHTML += html;
 });
 
 // document.querySelector('#app').innerHTML = `
