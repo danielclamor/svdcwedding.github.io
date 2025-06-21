@@ -108,6 +108,10 @@ h1 {
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  background-image: url('/public/images/photo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
 
 .svdc__top-landing-left {
@@ -219,7 +223,6 @@ hr {
 
 .svdc__details-setting,
 .svdc__details-rsvp {
-  /* width: 100%; */
   justify-items: center;
   padding: 24px;
   text-align: center;
@@ -256,8 +259,6 @@ hr {
 
 @media screen and (max-width: 768px) {
   .svdc__top-landing {
-    background-image: url('/public/images/photo.png');
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
