@@ -98,9 +98,14 @@ h1 {
   }
 }
 
-.svdc__top-landing {
-  max-height: -webkit-fill-available;
+#app {
+  overflow: scroll;
   max-width: -webkit-fill-available;
+}
+
+.svdc__top-landing {
+  max-height: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -148,7 +153,16 @@ hr {
 }
 
 .svdc__details-dress-code {
+  padding: 8px;
+  justify-items: center;
+}
+
+.svdc__details-dress-code-top {
   display: flex;
+}
+
+#palette {
+  width: 50%;
 }
 
 .svdc__details-dress-code-photo {
@@ -193,6 +207,15 @@ hr {
   font-weight: bold;
 }
 
+#pegs-mobile,
+#pegs-web {
+  width: 100%;
+}
+
+#pegs-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .svdc__top-landing {
     max-height: -webkit-fill-available;
@@ -226,8 +249,20 @@ hr {
     max-width: 80%;
   }
 
-  .svdc__details-dress-code-info-top {
+  .svdc__details-dress-code-top {
     display: grid;
-    gap: 8px;
+    justify-items: center;
   }
+
+  #palette {
+    width: 100%;
+  }
+
+  #pegs-mobile {
+    display: block;
+  }
+
+  #pegs-web {
+    display: none;
+  };
 }
