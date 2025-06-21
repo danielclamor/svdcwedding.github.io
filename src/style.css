@@ -168,17 +168,13 @@ hr {
   display: grid;
   justify-items: center;
   width: 100%;
+  gap: 8px;
 }
 
 .svdc__details-dress-code-info-top {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-}
-
-.svdc__details-dress-code-info-bottom {
-  display: flex;
-  gap: 4px;
 }
 
 .svdc__details-dress-code-info--section {
@@ -200,6 +196,11 @@ hr {
 
 .pill {
   font-weight: bold;
+}
+
+.svdc__details-dress-code-pegs {
+  display: grid;
+  justify-items: center;
 }
 
 #pegs-mobile,
@@ -236,6 +237,11 @@ hr {
   .svdc__details-dress-code-top {
     display: grid;
     justify-items: center;
+    gap: 8px;
+  }
+
+  .svdc__details-dress-code-info--section.accents{
+    text-align: center;
   }
 
   #palette {
