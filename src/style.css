@@ -64,7 +64,7 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--blue);
   text-decoration: inherit;
 }
 a:hover {
@@ -73,9 +73,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
   color: var(--blue);
   letter-spacing: 2px;
