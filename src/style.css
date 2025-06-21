@@ -55,9 +55,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --green: rgba(22, 155, 98);
-  --blue: rgba(0, 120, 191);
-  --orange: rgba(228, 150, 28);
+  --green: rgb(22, 155, 98); 
+  /* #169b62 */
+  --blue: rgb(0, 120, 191);
+  /* #0078bf */
+  --orange: rgb(228, 150, 28);
+  /* #e4961c */
   --yellow: rgba(255, 248, 0);
   --red: rgba(255, 102, 94);
 }
@@ -104,7 +107,7 @@ h1 {
   height: 100vh;
   width: 100vw;
   display: flex;
-  background-image: url('/public/images/photo.png');
+  background-image: url('/images/photo.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
@@ -239,6 +242,11 @@ hr {
 
 #rsvp-button:hover {
   box-shadow: 1px 0 10px var(--green);
+}
+
+#rsvp-deadline {
+  color: #fff;
+  background-color: var(--orange);
 }
 
 #sam, #daniel {

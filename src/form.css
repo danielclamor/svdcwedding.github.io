@@ -70,6 +70,7 @@ a {
   color: var(--blue);
   letter-spacing: 2px;
   text-decoration: inherit;
+  text-transform:uppercase;
 }
 a:hover {
   color: var(--orange);
