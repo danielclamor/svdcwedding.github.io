@@ -155,8 +155,42 @@ hr {
   width: 50%;
 }
 
+.svdc__details-dress-code-info {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+}
+
+.svdc__details-dress-code-info-top {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.svdc__details-dress-code-info-bottom {
+  display: flex;
+  gap: 4px;
+}
+
 .svdc__details-dress-code-info--section {
-  height: auto;
+  align-content: center;
+}
+
+.svdc__details-dress-code-info--section > h2,
+.svdc__details-dress-code-info--section > p {
+  margin: 0;
+}
+
+.svdc__orange-pill {
+  color: var(--orange)
+}
+
+.svdc__green-pill {
+  color: var(--green)
+}
+
+.pill {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
@@ -190,5 +224,10 @@ hr {
 
   .svdc__top-landing-logo {
     max-width: 80%;
+  }
+
+  .svdc__details-dress-code-info-top {
+    display: grid;
+    gap: 8px;
   }
 }

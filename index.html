@@ -4,11 +4,50 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/images/svdc-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="src/style.css" rel="stylesheet">
-    <title>SVDC WEDDING</title>
+    <link href="/src/style.css" rel="stylesheet">
+    <title>SVDC : WEDDING</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div name="top-landing" class="svdc__top-landing">
+        <div class="svdc__top-landing-right">
+          <img src="/images/photo.png" class="svdc__top-landing-photo" />
+        </div>
+        <div class="svdc__top-landing-left">
+          <img src="/images/svdc-logo.png" class="svdc__top-landing-logo" />
+          <div class="svdc__top-landing-left--info">
+            <h1>Dec 13, 2025</h1>
+            <h2>Park by Sidewalk Citizen</h2>
+            <p>340 13 Ave SW, Calgary, AB</p>
+          </div>
+          <img id="button-arrow-down" src="/images/down-arrow.png" height="50px" style="margin-top: 16px;"/>
+        </div>
+      </div>
+      <div name="details">
+        <hr/>
+        <div class="svdc__details-dress-code">
+          <img src="/images/tropical-formal.png" class="svdc__details-dress-code-photo"/>
+          <div class="svdc__details-dress-code-info">
+            <div class="svdc__details-dress-code-info-top">
+              <div class="svdc__details-dress-code-info--section">
+                <h2>GENTLEMEN</h2>
+                <p>barong tagalog, long sleeves,<br>or linen top & pants</p>
+              </div>
+              <div class="svdc__details-dress-code-info--section">
+                <h2>LADIES</h2>
+                <p>filipiñana, dress, or<br>pantsuit</p>
+              </div>
+            </div>
+            <div class="svdc__details-dress-code-info-bottom">
+              <div class="svdc__details-dress-code-info--section">
+                <h2>+ ACCENTS!</h2>
+                <p>choose your pill: <span class="svdc__orange-pill pill">orange</span> or <span class="svdc__green-pill pill">green</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
