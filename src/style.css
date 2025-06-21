@@ -78,6 +78,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   color: var(--blue);
+  letter-spacing: 2px;
 }
 
 h1 {
@@ -118,7 +119,6 @@ h1 {
 
 .svdc__top-landing-left--info {
   justify-items: center;
-  letter-spacing: 2px;
   line-height: 0.5px;
 }
 
@@ -148,7 +148,7 @@ hr {
 }
 
 .svdc__details-dress-code {
-  padding: 8px;
+  padding: 24px;
   justify-items: center;
 }
 
@@ -212,6 +212,48 @@ hr {
   display: none;
 }
 
+.svdc__details-dress-code-footer {
+  color: var(--orange);
+  width: 100%;
+}
+
+.svdc__details-setting,
+.svdc__details-rsvp {
+  /* width: 100%; */
+  justify-items: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.svdc__details-rsvp .svdc__details-rsvp-heading {
+  color: var(--orange);
+}
+
+.svdc__details-rsvp-message {
+  max-width: 520px;
+}
+
+#rsvp-button {
+  max-width: 200px;
+  margin: 32px 0;
+}
+
+#rsvp-button:hover {
+  box-shadow: 1px 0 10px var(--green);
+}
+
+#sam, #daniel {
+  font-weight: bold;
+}
+
+/* #sam {
+  color: var(--orange);
+}
+
+#daniel {
+  color: var(--green);
+} */
+
 @media screen and (max-width: 768px) {
   .svdc__top-landing {
     background-image: url('/public/images/photo.png');
@@ -226,7 +268,6 @@ hr {
 
   .svdc__top-landing-left--info {
     justify-items: center;
-    letter-spacing: 2px;
     line-height: 0.5px;
   }
 
