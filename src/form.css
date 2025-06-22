@@ -1,38 +1,9 @@
 @font-face {
   font-family: "PPRader";
-  src: url("/fonts/PPRaderWeb/PPRader-Bold.woff2") format("woff2");
+  src: url("/public/fonts/PPRaderWeb/PPRader-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
-
-@font-face {
-  font-family: "PPRader";
-  src: url("/fonts/PPRaderWeb/PPRader-BoldItalic.woff2") format("woff2");
-  font-weight: 700;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "PPRader";
-  src: url("/fonts/PPRaderWeb/PPRader-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "PPRader";
-  src: url("/fonts/PPRaderWeb/PPRader-Thin.woff2") format("woff2");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PPRader";
-  src: url("/fonts/PPRaderWeb/PPRader-ThinItalic.woff2") format("woff2");
-  font-weight: 200;
-  font-style: italic;
-}
-
 
 @font-face {
   font-family: "PPRader";
@@ -48,21 +19,6 @@
   --yellow: rgba(255, 248, 0);
   --red: rgba(255, 102, 94);
 }
-
-/* html { 
-  margin: 0; 
-  height: 100%; 
-  overflow: hidden; 
-}
-
-iframe { 
-  position: relative; 
-  top: 0; 
-  right: 0; 
-  bottom: 0; 
-  left: 0; 
-  border: 0; 
-} */
 
 a {
   font-family: PPRader;
