@@ -1,7 +1,7 @@
 {
   "name": "svdc-wedding",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,9 +10,5 @@
   },
   "devDependencies": {
     "vite": "^6.3.5"
-  },
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.8",
-    "tailwindcss": "^4.1.8"
   }
 }
