@@ -1,6 +1,6 @@
 {
   "name": "svdc-wedding",
-  "private": true,
+  "homepage": "/svdc-wedding",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
