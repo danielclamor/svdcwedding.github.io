@@ -112,7 +112,7 @@ h1 {
   background-position: right;
 }
 
-.svdc__top-landing-left {
+.svdc__top-landing-center {
   display: grid;
   width: 100%;
   text-transform: uppercase;
@@ -125,19 +125,16 @@ h1 {
   max-height: 50vh;
 }
 
-.svdc__top-landing-left--info {
+.svdc__top-landing-center--info {
   display: grid;
   justify-items: center;
   line-height: 0;
   margin-top: 12px;
 }
 
-.svdc__top-landing-left--info h1 {
-  line-height: 0;
-}
-
-.svdc__top-landing-right {
-  display: flex;
+.svdc__top-landing-center--info h1, 
+.svdc__top-landing-center--info p {
+  margin: 0;
 }
 
 .svdc__top-landing p {
