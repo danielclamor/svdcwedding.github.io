@@ -1,13 +1,13 @@
 @font-face {
   font-family: "PPRader";
-  src: url("/fonts/PPRaderWeb/PPRader-Bold.woff2") format("woff2");
+  src: url("./public/fonts/PPRaderWeb/PPRader-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "PPRader";
-  src: url("/fonts/PPRaderWeb/PPRader-Regular.woff2") format("woff2");
+  src: url("./public/fonts/PPRaderWeb/PPRader-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
