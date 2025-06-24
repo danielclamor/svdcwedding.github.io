@@ -120,6 +120,7 @@ h1 {
   text-transform: uppercase;
   align-content: center;
   justify-items: center;
+  gap: 16px;
 }
 
 .svdc__top-landing-logo {
