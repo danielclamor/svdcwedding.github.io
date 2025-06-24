@@ -116,6 +116,7 @@ h1 {
   display: grid;
   width: 100%;
   max-width: 500px;
+  margin: auto;
   text-transform: uppercase;
   align-content: center;
   justify-items: center;
