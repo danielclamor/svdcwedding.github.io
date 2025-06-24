@@ -276,11 +276,6 @@ hr {
     display: none;
   }
 
-  .svdc__top-landing-left--info {
-    justify-items: center;
-    line-height: 0.5px;
-  }
-
   .svdc__details-dress-code-top {
     display: grid;
     justify-items: center;
