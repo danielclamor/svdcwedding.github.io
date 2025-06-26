@@ -92,10 +92,6 @@ a:hover {
   text-decoration: underline wavy 1px var(--green);
 }
 
-#app {
-  overflow: scroll;
-}
-
 .svdc__modal {
   z-index: 10;
   opacity: 0;
@@ -128,6 +124,7 @@ a:hover {
   max-height: 100vh;
   position: absolute;
   overflow: auto;
+  transition: transform .25s ease-in-out, visibility .25s ease-in-out;
   transform: scale(.9);
   box-shadow: 0 1px 2px #0000004d;
 }
@@ -143,6 +140,10 @@ a:hover {
   display: flex;
   justify-content: center;
   padding: 0 32px 8px;
+}
+
+#button-close-modal {
+  margin: 16px 32px 0 0;
 }
 
 @media screen and (min-width: 769px) {
@@ -307,12 +308,12 @@ hr {
   margin: auto;
 }
 
-#rsvp-button {
+#button-rsvp {
   max-width: 200px;
   margin: 32px 0;
 }
 
-#rsvp-button:hover {
+#button-rsvp:hover {
   box-shadow: 1px 0 10px var(--green);
 }
 
