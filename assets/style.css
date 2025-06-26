@@ -113,14 +113,23 @@ a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 .svdc__modal[aria-hidden="false"] {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
+}
+
+.svdc__modal-dialog {
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  position: absolute;
+  overflow: auto;
+  transform: scale(.9);
+  box-shadow: 0 1px 2px #0000004d;
 }
 
 .svdc__modal[aria-hidden="false"] .svdc__modal-dialog {
@@ -132,20 +141,19 @@ a:hover {
   text-align: center;
   align-items: center;
   display: flex;
-  height: 100%;
-  flex-direction: column;
   justify-content: center;
+  padding: 0 32px 8px;
 }
 
-@media screen and (min-width: 769) {
+@media screen and (min-width: 769px) {
   .svdc__modal {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .svdc__modal-rsvp-form {
-    width: 500px;
+  .svdc__modal-dialog {
+    max-width: 768px;
     height: auto;
     max-height: calc(100% - 80px);
   }
