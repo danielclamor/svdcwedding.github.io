@@ -149,7 +149,7 @@ a:hover {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 0 32px 8px;
+  padding: 0 32px 16px;
 }
 
 #button-close-modal:hover {
@@ -168,6 +168,10 @@ a:hover {
     height: auto;
     max-height: calc(100% - 80px);
     border: 4px solid var(--green);
+  }
+
+  .svdc__modal-rsvp-form {
+    padding: 0 32px 8px;
   }
 }
 
